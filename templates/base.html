@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first project</title>
+</head>
+<body>
+<h2>
+    My first project in Django!
+</h2>
+<header>
+  <a href="{% url 'home' %}">Bosh sahifa</a> |
+  <a href="{% url 'about' %}">Saytimiz haqida</a>
+</header>
+
+{% block content %}
+{% endblock content %}
+</body>
+</html>
